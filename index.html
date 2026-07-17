@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azulejos — галерея португальской плитки</title>
+<style>
+  :root {
+    --bg: #0e1420;
+    --panel: #16202f;
+    --ink: #e8edf4;
+    --muted: #8fa1b8;
+    --accent: #4f9dd8;
+    --accent2: #d8b24f;
+    --chip: #1e2d42;
+    --chip-on: #2563a8;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 "Segoe UI", system-ui, sans-serif;
+  }
+  header {
+    padding: 28px 24px 10px;
+    background: linear-gradient(180deg, #12233a 0%, var(--bg) 100%);
+    border-bottom: 1px solid #1d2a3d;
+  }
+  header h1 { margin: 0 0 4px; font-size: 26px; font-weight: 650; letter-spacing: .3px; }
+  header h1 span { color: var(--accent); }
+  header p { margin: 0; color: var(--muted); font-size: 13.5px; }
+  .filters { padding: 14px 24px 6px; display: flex; flex-direction: column; gap: 8px; }
+  .fgroup { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px; }
+  .fgroup .flabel { color: var(--muted); font-size: 12.5px; width: 52px; flex: 0 0 52px; text-transform: uppercase; letter-spacing: .8px; }
+  .chip {
+    background: var(--chip); border: 1px solid #27374e; color: var(--ink);
+    border-radius: 999px; padding: 3px 12px; font-size: 13px; cursor: pointer;
+    transition: background .15s, border-color .15s; user-select: none;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.on { background: var(--chip-on); border-color: var(--accent); }
+  .chip .n { color: var(--muted); font-size: 11.5px; margin-left: 4px; }
+  .chip.on .n { color: #cfe4f6; }
+  .toolbar { padding: 4px 24px 12px; display: flex; align-items: center; gap: 14px; color: var(--muted); font-size: 13px; }
+  .toolbar button {
+    background: none; border: 1px solid #27374e; color: var(--muted);
+    border-radius: 6px; padding: 3px 10px; cursor: pointer; font-size: 12.5px;
+  }
+  .toolbar button:hover { color: var(--ink); border-color: var(--accent); }
+  .grid { column-count: 5; column-gap: 12px; padding: 0 24px 40px; }
+  @media (max-width: 1500px) { .grid { column-count: 4; } }
+  @media (max-width: 1100px) { .grid { column-count: 3; } }
+  @media (max-width: 800px)  { .grid { column-count: 2; } }
+  @media (max-width: 500px)  { .grid { column-count: 1; } }
+  .card {
+    break-inside: avoid; margin: 0 0 12px; border-radius: var(--radius);
+    overflow: hidden; background: var(--panel); cursor: zoom-in; position: relative;
+    border: 1px solid #1c2939;
+  }
+  .card img { width: 100%; display: block; }
+  .card .cap {
+    position: absolute; inset: auto 0 0 0; padding: 20px 10px 8px;
+    background: linear-gradient(transparent, rgba(5,10,18,.88));
+    font-size: 12px; line-height: 1.35; opacity: 0; transition: opacity .18s;
+  }
+  .card:hover .cap { opacity: 1; }
+  .cap .t { display: block; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .cap .a { color: #b9c8da; }
+  .tagrow { margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { font-size: 10.5px; background: rgba(37,99,168,.55); border-radius: 4px; padding: 0 5px; }
+  .tag.c { background: rgba(216,178,79,.4); }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; display: none; }
+  /* Lightbox */
+  #lb {
+    position: fixed; inset: 0; background: rgba(4,8,14,.94); z-index: 50;
+    display: none; align-items: center; justify-content: center; flex-direction: column;
+  }
+  #lb.open { display: flex; }
+  #lb .imgwrap { flex: 1 1 auto; min-height: 0; display: flex; align-items: center; justify-content: center; width: 100%; padding: 18px 70px 0; }
+  #lb img { max-width: 100%; max-height: 100%; border-radius: 6px; box-shadow: 0 10px 50px rgba(0,0,0,.6); }
+  #lb .meta {
+    flex: 0 0 auto; width: 100%; max-width: 1100px; padding: 12px 24px 18px;
+    font-size: 13.5px; color: #c6d3e2; text-align: center;
+  }
+  #lb .meta .title { font-size: 15.5px; font-weight: 600; color: var(--ink); margin-bottom: 3px; }
+  #lb .meta a { color: var(--accent); text-decoration: none; }
+  #lb .meta a:hover { text-decoration: underline; }
+  #lb .meta .attr { margin-top: 2px; }
+  #lb .meta .tags { margin-top: 6px; display: flex; gap: 6px; justify-content: center; flex-wrap: wrap; }
+  #lb .meta .tag { font-size: 11.5px; padding: 1px 8px; }
+  .lbbtn {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: rgba(22,32,47,.7); color: var(--ink); border: 1px solid #2c3e58;
+    font-size: 26px; width: 46px; height: 64px; border-radius: 8px; cursor: pointer;
+  }
+  .lbbtn:hover { background: rgba(37,99,168,.8); }
+  #prev { left: 14px; } #next { right: 14px; }
+  #close {
+    position: absolute; top: 14px; right: 18px; font-size: 20px; width: 40px; height: 40px;
+    border-radius: 50%; background: rgba(22,32,47,.7); color: var(--ink);
+    border: 1px solid #2c3e58; cursor: pointer;
+  }
+  #close:hover { background: rgba(200,60,60,.7); }
+  #count { position: absolute; top: 22px; left: 24px; color: var(--muted); font-size: 13px; }
+  footer { padding: 18px 24px 34px; color: var(--muted); font-size: 12.5px; border-top: 1px solid #1d2a3d; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Azulejos <span>·</span> галерея португальской плитки</h1>
+  <p id="subtitle">Референс-библиотека. Источник: Wikimedia Commons, свободные лицензии.</p>
+</header>
+
+<div class="filters" id="filters"></div>
+<div class="toolbar">
+  <span id="stat"></span>
+  <button id="reset">Сбросить фильтры</button>
+  <button id="shuffle">Перемешать</button>
+</div>
+
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty">Ничего не найдено — сними часть фильтров.</div>
+
+<div id="lb">
+  <span id="count"></span>
+  <button id="close" title="Закрыть (Esc)">✕</button>
+  <button id="prev" class="lbbtn" title="←">‹</button>
+  <button id="next" class="lbbtn" title="→">›</button>
+  <div class="imgwrap"><img id="lbimg" alt=""></div>
+  <div class="meta" id="lbmeta"></div>
+</div>
+
+<footer>
+  Все изображения — <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons</a>,
+  лицензии CC BY / CC BY-SA / Public Domain (указаны на каждом изображении, полная таблица — attributions.csv).
+  Собрано автоматически, категоризация черновая.
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  const DIMS = {
+    style: { label: 'Стиль', values: {
+      'hispano-moorish':'Испано-мавританский', 'majolica':'Майолика', 'blue-white':'Сине-белый',
+      'pombaline':'Помбалино / паттерн', 'art-nouveau':'Ар-нуво', 'modernist':'Модернизм / XX–XXI',
+      'other':'Прочее' } },
+    century: { label: 'Век', values: {
+      '15-16':'XV–XVI', '17':'XVII', '18':'XVIII', '19':'XIX', '20-21':'XX–XXI', 'unknown':'Не определён' } },
+    motif: { label: 'Мотив', values: {
+      'geometric':'Геометрия / паттерн', 'floral':'Флора', 'figurative':'Фигуративный',
+      'narrative-panels':'Сюжетные панно', 'figura-de-convite':'Figura de convite',
+      'relief':'Рельеф', 'other':'Прочее' } }
+  };
+  const state = { style: new Set(), century: new Set(), motif: new Set() };
+  let order = TILES.map((_,i)=>i);
+  let visible = [];
+
+  const $ = (s)=>document.querySelector(s);
+  const grid = $('#grid'), fbox = $('#filters');
+
+  function counts(dim){
+    const c = {};
+    TILES.forEach(t => { const v = t[dim] || 'other'; c[v]=(c[v]||0)+1; });
+    return c;
+  }
+
+  function buildFilters(){
+    fbox.innerHTML = '';
+    for (const dim of Object.keys(DIMS)){
+      const g = document.createElement('div'); g.className='fgroup';
+      const lab = document.createElement('span'); lab.className='flabel'; lab.textContent = DIMS[dim].label;
+      g.appendChild(lab);
+      const c = counts(dim);
+      for (const [key, name] of Object.entries(DIMS[dim].values)){
+        if (!c[key]) continue;
+        const ch = document.createElement('span'); ch.className='chip';
+        ch.innerHTML = name + '<span class="n">' + c[key] + '</span>';
+        ch.onclick = () => {
+          state[dim].has(key) ? state[dim].delete(key) : state[dim].add(key);
+          ch.classList.toggle('on');
+          render();
+        };
+        ch.dataset.dim = dim; ch.dataset.key = key;
+        g.appendChild(ch);
+      }
+      fbox.appendChild(g);
+    }
+  }
+
+  function match(t){
+    for (const dim of Object.keys(state)){
+      if (state[dim].size && !state[dim].has(t[dim]||'other')) return false;
+    }
+    return true;
+  }
+
+  function tagHtml(t){
+    const s = DIMS.style.values[t.style]||t.style, c = DIMS.century.values[t.century]||t.century,
+          m = DIMS.motif.values[t.motif]||t.motif;
+    return '<span class="tag">'+s+'</span><span class="tag c">'+c+'</span><span class="tag">'+m+'</span>';
+  }
+
+  function render(){
+    grid.innerHTML = '';
+    visible = order.filter(i => match(TILES[i]));
+    $('#empty').style.display = visible.length ? 'none' : 'block';
+    $('#stat').textContent = 'Показано: ' + visible.length + ' из ' + TILES.length;
+    const frag = document.createDocumentFragment();
+    visible.forEach((i, pos) => {
+      const t = TILES[i];
+      const card = document.createElement('div'); card.className='card';
+      card.innerHTML = '<img loading="lazy" src="images/thumb/'+t.file+'" alt="">' +
+        '<div class="cap"><span class="t">'+esc(t.name)+'</span>' +
+        '<span class="a">'+esc(t.artist||'')+' · '+esc(t.license)+'</span>' +
+        '<div class="tagrow">'+tagHtml(t)+'</div></div>';
+      card.onclick = () => openLb(pos);
+      frag.appendChild(card);
+    });
+    grid.appendChild(frag);
+  }
+
+  function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+  // Lightbox
+  let lbPos = 0;
+  const lb = $('#lb');
+  function openLb(pos){
+    lbPos = pos; lb.classList.add('open'); showLb();
+    document.body.style.overflow = 'hidden';
+  }
+  function showLb(){
+    const t = TILES[visible[lbPos]];
+    $('#lbimg').src = 'images/large/' + t.file;
+    $('#count').textContent = (lbPos+1) + ' / ' + visible.length;
+    $('#lbmeta').innerHTML =
+      '<div class="title">'+esc(t.name)+'</div>' +
+      '<div class="attr">Автор: <b>'+esc(t.artist||'неизвестен')+'</b> · Лицензия: ' +
+      (t.licurl ? '<a href="'+t.licurl+'" target="_blank">'+esc(t.license)+'</a>' : esc(t.license)) +
+      (t.date ? ' · ' + esc(t.date) : '') +
+      ' · <a href="'+t.page+'" target="_blank">страница на Commons</a></div>' +
+      '<div class="tags">'+tagHtml(t)+'</div>';
+    // preload neighbours
+    [lbPos+1, lbPos-1].forEach(p => {
+      if (p>=0 && p<visible.length) { const im = new Image(); im.src = 'images/large/'+TILES[visible[p]].file; }
+    });
+  }
+  function closeLb(){ lb.classList.remove('open'); document.body.style.overflow=''; }
+  function nav(d){ lbPos = (lbPos + d + visible.length) % visible.length; showLb(); }
+  $('#close').onclick = closeLb;
+  $('#prev').onclick = () => nav(-1);
+  $('#next').onclick = () => nav(1);
+  lb.onclick = (e) => { if (e.target === lb || e.target.classList.contains('imgwrap')) closeLb(); };
+  document.addEventListener('keydown', (e) => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLb();
+    if (e.key === 'ArrowLeft') nav(-1);
+    if (e.key === 'ArrowRight') nav(1);
+  });
+
+  $('#reset').onclick = () => {
+    Object.values(state).forEach(s=>s.clear());
+    document.querySelectorAll('.chip.on').forEach(c=>c.classList.remove('on'));
+    render();
+  };
+  $('#shuffle').onclick = () => {
+    for (let i = order.length-1; i>0; i--){ const j = Math.floor(Math.random()*(i+1)); [order[i],order[j]]=[order[j],order[i]]; }
+    render();
+  };
+
+  buildFilters();
+  render();
+})();
+</script>
+</body>
+</html>
