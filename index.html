@@ -71,7 +71,6 @@
   .tag { font-size: 10.5px; background: rgba(37,99,168,.55); border-radius: 4px; padding: 0 5px; }
   .tag.c { background: rgba(216,178,79,.4); }
   .empty { text-align: center; color: var(--muted); padding: 60px 0; display: none; }
-  /* Lightbox */
   #lb {
     position: fixed; inset: 0; background: rgba(4,8,14,.94); z-index: 50;
     display: none; align-items: center; justify-content: center; flex-direction: column;
@@ -157,7 +156,7 @@
       'relief':'Рельеф', 'other':'Прочее' } }
   };
   const state = { style: new Set(), century: new Set(), motif: new Set() };
-  let tilesOnly = true; // режим по умолчанию: выпрямленные тайлы
+  let tilesOnly = true;
   let order = TILES.map((_,i)=>i);
   let visible = [];
 
@@ -186,7 +185,6 @@
           ch.classList.toggle('on');
           render();
         };
-        ch.dataset.dim = dim; ch.dataset.key = key;
         g.appendChild(ch);
       }
       fbox.appendChild(g);
@@ -229,7 +227,6 @@
 
   function esc(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 
-  // Lightbox
   let lbPos = 0;
   const lb = $('#lb');
   function openLb(pos){
@@ -247,7 +244,6 @@
       (t.date ? ' · ' + esc(t.date) : '') +
       ' · <a href="'+t.page+'" target="_blank">страница на Commons</a></div>' +
       '<div class="tags">'+tagHtml(t)+'</div>';
-    // preload neighbours
     [lbPos+1, lbPos-1].forEach(p => {
       if (p>=0 && p<visible.length) { const im = new Image(); im.src = 'images/large/'+TILES[visible[p]].file; }
     });
@@ -261,4 +257,32 @@
   document.addEventListener('keydown', (e) => {
     if (!lb.classList.contains('open')) return;
     if (e.key === 'Escape') closeLb();
-    if (e.key
+    if (e.key === 'ArrowLeft') nav(-1);
+    if (e.key === 'ArrowRight') nav(1);
+  });
+
+  $('#reset').onclick = () => {
+    Object.values(state).forEach(s=>s.clear());
+    document.querySelectorAll('.chip.on').forEach(c=>c.classList.remove('on'));
+    render();
+  };
+  $('#shuffle').onclick = () => {
+    for (let i = order.length-1; i>0; i--){ const j = Math.floor(Math.random()*(i+1)); [order[i],order[j]]=[order[j],order[i]]; }
+    render();
+  };
+  function setMode(v){
+    tilesOnly = v;
+    $('#modeTiles').classList.toggle('on', v);
+    $('#modeAll').classList.toggle('on', !v);
+    render();
+  }
+  $('#modeTiles').onclick = () => setMode(true);
+  $('#modeAll').onclick = () => setMode(false);
+  $('#modeTiles').classList.add('on');
+
+  buildFilters();
+  render();
+})();
+</script>
+</body>
+</html>
