@@ -47,6 +47,7 @@
     border-radius: 6px; padding: 3px 10px; cursor: pointer; font-size: 12.5px;
   }
   .toolbar button:hover { color: var(--ink); border-color: var(--accent); }
+  .toolbar .modebtn.on { color: var(--ink); background: var(--chip-on); border-color: var(--accent); }
   .grid { column-count: 5; column-gap: 12px; padding: 0 24px 40px; }
   @media (max-width: 1500px) { .grid { column-count: 4; } }
   @media (max-width: 1100px) { .grid { column-count: 3; } }
@@ -117,6 +118,9 @@
   <span id="stat"></span>
   <button id="reset">Сбросить фильтры</button>
   <button id="shuffle">Перемешать</button>
+  <span style="margin-left:auto">Превью:</span>
+  <button id="modeTiles" class="modebtn">Тайлы</button>
+  <button id="modeAll" class="modebtn">Все фото</button>
 </div>
 
 <div class="grid" id="grid"></div>
@@ -153,6 +157,7 @@
       'relief':'Рельеф', 'other':'Прочее' } }
   };
   const state = { style: new Set(), century: new Set(), motif: new Set() };
+  let tilesOnly = true; // режим по умолчанию: выпрямленные тайлы
   let order = TILES.map((_,i)=>i);
   let visible = [];
 
@@ -189,6 +194,7 @@
   }
 
   function match(t){
+    if (tilesOnly && !t.tile) return false;
     for (const dim of Object.keys(state)){
       if (state[dim].size && !state[dim].has(t[dim]||'other')) return false;
     }
@@ -210,7 +216,8 @@
     visible.forEach((i, pos) => {
       const t = TILES[i];
       const card = document.createElement('div'); card.className='card';
-      card.innerHTML = '<img loading="lazy" src="images/thumb/'+t.file+'" alt="">' +
+      const src = (tilesOnly && t.tile) ? 'images/tile/'+t.tile : 'images/thumb/'+t.file;
+      card.innerHTML = '<img loading="lazy" src="'+src+'" alt="">' +
         '<div class="cap"><span class="t">'+esc(t.name)+'</span>' +
         '<span class="a">'+esc(t.artist||'')+' · '+esc(t.license)+'</span>' +
         '<div class="tagrow">'+tagHtml(t)+'</div></div>';
@@ -254,23 +261,4 @@
   document.addEventListener('keydown', (e) => {
     if (!lb.classList.contains('open')) return;
     if (e.key === 'Escape') closeLb();
-    if (e.key === 'ArrowLeft') nav(-1);
-    if (e.key === 'ArrowRight') nav(1);
-  });
-
-  $('#reset').onclick = () => {
-    Object.values(state).forEach(s=>s.clear());
-    document.querySelectorAll('.chip.on').forEach(c=>c.classList.remove('on'));
-    render();
-  };
-  $('#shuffle').onclick = () => {
-    for (let i = order.length-1; i>0; i--){ const j = Math.floor(Math.random()*(i+1)); [order[i],order[j]]=[order[j],order[i]]; }
-    render();
-  };
-
-  buildFilters();
-  render();
-})();
-</script>
-</body>
-</html>
+    if (e.key
