@@ -9,7 +9,7 @@ const TILES = [
   "date": "5 April 2007 (upload date)",
   "style": "hispano-moorish",
   "century": "15-16",
-  "motif": "geometric",
+  "motif": "other",
   "w": 1500,
   "h": 2207
  },
@@ -53,8 +53,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 2048,
-  "h": 1536,
-  "tile": "Fale_-_Spain_-_Sevilla_-_74.jpg"
+  "h": 1536
  },
  {
   "file": "Fale_-_Spain_-_Sevilla_-_75.jpg",
@@ -68,8 +67,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 2048,
-  "h": 1536,
-  "tile": "Fale_-_Spain_-_Sevilla_-_75.jpg"
+  "h": 1536
  },
  {
   "file": "Fale_-_Spain_-_Sevilla_-_80.jpg",
@@ -81,7 +79,7 @@ const TILES = [
   "date": "",
   "style": "hispano-moorish",
   "century": "15-16",
-  "motif": "geometric",
+  "motif": "other",
   "w": 1536,
   "h": 2048
  },
@@ -109,7 +107,7 @@ const TILES = [
   "date": "2009-08-19",
   "style": "hispano-moorish",
   "century": "15-16",
-  "motif": "geometric",
+  "motif": "other",
   "w": 1415,
   "h": 1626
  },
@@ -125,8 +123,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 2471,
-  "h": 2442,
-  "tile": "Section_of_a_tile_floor_with_coat_of_arms.jpg"
+  "h": 2442
  },
  {
   "file": "Azulejo_flores_azules.jpg",
@@ -138,10 +135,9 @@ const TILES = [
   "date": "2010-11-06 14:15",
   "style": "hispano-moorish",
   "century": "15-16",
-  "motif": "geometric",
+  "motif": "relief",
   "w": 4272,
-  "h": 2848,
-  "tile": "Azulejo_flores_azules.jpg"
+  "h": 2848
  },
  {
   "file": "Azulejos_de_los_Reales_Alcazares_de_Sevilla.jpg",
@@ -155,8 +151,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 2126,
-  "h": 971,
-  "tile": "Azulejos_de_los_Reales_Alcazares_de_Sevilla.jpg"
+  "h": 971
  },
  {
   "file": "Granada-La_Alhambra-24-Palacio_de_Comares-Azulejos_-20110920.jpg",
@@ -198,8 +193,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 2048,
-  "h": 1360,
-  "tile": "Timurid_tile_-_Persia_-_15th_century.jpg"
+  "h": 1360
  },
  {
   "file": "Azulejos_-_Palacio_de_la_Condesa_de_Lebrija.jpg",
@@ -213,8 +207,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 2048,
-  "h": 1360,
-  "tile": "Azulejos_-_Palacio_de_la_Condesa_de_Lebrija.jpg"
+  "h": 1360
  },
  {
   "file": "Azulejos_-_Patio_de_las_Doncelas_-_Palacio_de_Pedro_I_-Alcazar_de_Sevilla.jpg",
@@ -243,8 +236,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 3456,
-  "h": 2304,
-  "tile": "Detail_of_Palacios_Nazaries_-_Alhambra_-_Granada_-_Spain_-_02.jpg"
+  "h": 2304
  },
  {
   "file": "Arista_tiles__16th_century_-_Alcazar_of_Seville__Spain_-_DSC07336.jpg",
@@ -258,8 +250,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 3616,
-  "h": 4764,
-  "tile": "Arista_tiles__16th_century_-_Alcazar_of_Seville__Spain_-_DSC07336.jpg"
+  "h": 4764
  },
  {
   "file": "Azulejo_en_la_Capilla_del_Sagrario__Iglesia_de_Santa_Marina._Sevilla.jpg",
@@ -273,8 +264,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 3088,
-  "h": 4112,
-  "tile": "Azulejo_en_la_Capilla_del_Sagrario__Iglesia_de_Santa_Marina._Sevilla.jpg"
+  "h": 4112
  },
  {
   "file": "Iglesia_del_Monasterio_de_la_Rabida__altar.jpg",
@@ -302,8 +292,7 @@ const TILES = [
   "century": "15-16",
   "motif": "narrative-panels",
   "w": 1296,
-  "h": 1916,
-  "tile": "Brasao_de_D._Jaime_I__Duque_de_Braganca__c._1510__-_Paco_Ducal_de_Vila_Vicosa__MNAz_inv._50_Az_.jpg"
+  "h": 1916
  },
  {
   "file": "Brasao_de_Cavaleiro_da_Ordem_de_Malta_-_Lisboa__c._1580__MNAz_inv._7370_Az_.jpg",
@@ -317,8 +306,7 @@ const TILES = [
   "century": "15-16",
   "motif": "narrative-panels",
   "w": 2088,
-  "h": 2712,
-  "tile": "Brasao_de_Cavaleiro_da_Ordem_de_Malta_-_Lisboa__c._1580__MNAz_inv._7370_Az_.jpg"
+  "h": 2712
  },
  {
   "file": "Alicatado_en_el_Palacio_de_Altamira__Sevilla_.jpg",
@@ -332,8 +320,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 2961,
-  "h": 3948,
-  "tile": "Alicatado_en_el_Palacio_de_Altamira__Sevilla_.jpg"
+  "h": 3948
  },
  {
   "file": "Lisboa_em1018_2073053__28419932899_.jpg",
@@ -362,8 +349,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 3654,
-  "h": 2436,
-  "tile": "Granada-La_Alhambra-02-Palacio_de_Comares-Azulejos-20190419.jpg"
+  "h": 2436
  },
  {
   "file": "Granada-La_Alhambra-06-Palacio_de_Comares-Azulejos-20190419.jpg",
@@ -392,8 +378,7 @@ const TILES = [
   "century": "15-16",
   "motif": "geometric",
   "w": 2021,
-  "h": 3163,
-  "tile": "Alicatado__Coleccion_Carranza__Sevilla_.jpg"
+  "h": 3163
  },
  {
   "file": "Lisbon__Portugal__2019_IMG_20190406_123223__51275090488_.jpg",
@@ -421,8 +406,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 3840,
-  "h": 5120,
-  "tile": "Lisbon__Portugal__2019_IMG_20190406_123311__51275945040_.jpg"
+  "h": 5120
  },
  {
   "file": "Lisbon__Portugal__2019_IMG_20190406_123640__51275945950_.jpg",
@@ -436,8 +420,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 3840,
-  "h": 5120,
-  "tile": "Lisbon__Portugal__2019_IMG_20190406_123640__51275945950_.jpg"
+  "h": 5120
  },
  {
   "file": "Lisbon__Portugal__2019_IMG_20190406_123737__51274174887_.jpg",
@@ -451,8 +434,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 3840,
-  "h": 5120,
-  "tile": "Lisbon__Portugal__2019_IMG_20190406_123737__51274174887_.jpg"
+  "h": 5120
  },
  {
   "file": "Lisbon__Portugal__2019_IMG_20190406_123833__51274923131_.jpg",
@@ -466,8 +448,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 3840,
-  "h": 5120,
-  "tile": "Lisbon__Portugal__2019_IMG_20190406_123833__51274923131_.jpg"
+  "h": 5120
  },
  {
   "file": "Azulejos_de_la_Capilla_de_San_Bartolome__Cordoba.jpg",
@@ -479,10 +460,9 @@ const TILES = [
   "date": "2021-05-15",
   "style": "hispano-moorish",
   "century": "15-16",
-  "motif": "geometric",
+  "motif": "other",
   "w": 4017,
-  "h": 1776,
-  "tile": "Azulejos_de_la_Capilla_de_San_Bartolome__Cordoba.jpg"
+  "h": 1776
  },
  {
   "file": "MNAz_48.jpg",
@@ -566,8 +546,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 3024,
-  "h": 4032,
-  "tile": "MNAz_54.jpg"
+  "h": 4032
  },
  {
   "file": "MNAz_55.jpg",
@@ -595,8 +574,7 @@ const TILES = [
   "century": "15-16",
   "motif": "other",
   "w": 2174,
-  "h": 2898,
-  "tile": "MNAz_56.jpg"
+  "h": 2898
  },
  {
   "file": "Emblema_de_gremio_del_siglo_XV._Coleccion_Cortina._Museo_de_Historia_de_Valencia_02.jpg",
@@ -681,7 +659,7 @@ const TILES = [
   "date": "circa 1580date QS:P,+1580-00-00T00:00:00Z/9,P1480,Q5727902",
   "style": "pombaline",
   "century": "15-16",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 999,
   "h": 1200,
   "tile": "aneirista_com_decoracao_a_azul__amarelo_e_vinoso__dito_Pizano__oficina_de_Lisboa__1580__c.__Portugal_-_Image_140384.jpg"
@@ -698,8 +676,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 4433,
-  "h": 2157,
-  "tile": "Azulejo_December_2012-5.jpg"
+  "h": 2157
  },
  {
   "file": "Azulejo_December_2012-4.jpg",
@@ -713,8 +690,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 2198,
-  "h": 2168,
-  "tile": "Azulejo_December_2012-4.jpg"
+  "h": 2168
  },
  {
   "file": "Azulejo_December_2012-10.jpg",
@@ -728,8 +704,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 2151,
-  "h": 2590,
-  "tile": "Azulejo_December_2012-10.jpg"
+  "h": 2590
  },
  {
   "file": "Igreja_da_Misericordia_da_Pederneira__Nazare__6316068868_.jpg",
@@ -743,8 +718,7 @@ const TILES = [
   "century": "17",
   "motif": "narrative-panels",
   "w": 1901,
-  "h": 1425,
-  "tile": "Igreja_da_Misericordia_da_Pederneira__Nazare__6316068868_.jpg"
+  "h": 1425
  },
  {
   "file": "P_Madeira_2015_Pana__356_.jpg",
@@ -758,8 +732,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 3000,
-  "h": 4000,
-  "tile": "P_Madeira_2015_Pana__356_.jpg"
+  "h": 4000
  },
  {
   "file": "Arcanjo_Tenente_com_as_Armas_de_Portugal_-_Lisboa__1641-1666__MNAz_inv._6118_Az_.jpg",
@@ -773,8 +746,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 1150,
-  "h": 1754,
-  "tile": "Arcanjo_Tenente_com_as_Armas_de_Portugal_-_Lisboa__1641-1666__MNAz_inv._6118_Az_.jpg"
+  "h": 1754
  },
  {
   "file": "Alegoria_Eucaristica_-_Lisboa__c._1660__proveniente_do_antigo_Convento_de_Sant_Ana__MNAz_inv._161_Az_.jpg",
@@ -802,8 +774,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 4320,
-  "h": 3240,
-  "tile": "Adoracion_de_los_Magos__1897_.jpg"
+  "h": 3240
  },
  {
   "file": "Santa_Clara_em_azulejos.jpg",
@@ -859,8 +830,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 2054,
-  "h": 2494,
-  "tile": "Sao_Francisco_da_a_Formula_de_Vida_a_Santa_Clara_-_Valentim_de_Almeida__Convento_do_Lourical_.jpg"
+  "h": 2494
  },
  {
   "file": "Milagre_da_Multiplicacao_dos_Paes_de_Santa_Clara_-_Valentim_de_Almeida__Convento_do_Lourical_.jpg",
@@ -874,8 +844,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 2057,
-  "h": 2556,
-  "tile": "Milagre_da_Multiplicacao_dos_Paes_de_Santa_Clara_-_Valentim_de_Almeida__Convento_do_Lourical_.jpg"
+  "h": 2556
  },
  {
   "file": "Sao_Francisco_da_a_Formula_de_Vida_a_Santa_Clara_-_Valentim_de_Almeida__Convento_do_Lourical___cropped_.jpg",
@@ -889,8 +858,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 1776,
-  "h": 2290,
-  "tile": "Sao_Francisco_da_a_Formula_de_Vida_a_Santa_Clara_-_Valentim_de_Almeida__Convento_do_Lourical___cropped_.jpg"
+  "h": 2290
  },
  {
   "file": "Convento_de_Santa_Clara__Funchal_-_2013-06-01_-_DSC03187.jpg",
@@ -904,8 +872,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 3240,
-  "h": 4320,
-  "tile": "Convento_de_Santa_Clara__Funchal_-_2013-06-01_-_DSC03187.jpg"
+  "h": 4320
  },
  {
   "file": "Convento_de_Santa_Clara__Funchal_-_2017-02-11_-_IMG_2436.jpg",
@@ -919,8 +886,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 3456,
-  "h": 4608,
-  "tile": "Convento_de_Santa_Clara__Funchal_-_2017-02-11_-_IMG_2436.jpg"
+  "h": 4608
  },
  {
   "file": "Convento_de_Santa_Clara__Funchal_-_2012-02-14_-_SDC19819.jpg",
@@ -934,8 +900,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 3000,
-  "h": 4000,
-  "tile": "Convento_de_Santa_Clara__Funchal_-_2012-02-14_-_SDC19819.jpg"
+  "h": 4000
  },
  {
   "file": "Convento_de_Santa_Clara__Funchal_-_2014-10-21_-_DSC01922.jpg",
@@ -949,8 +914,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 3864,
-  "h": 5152,
-  "tile": "Convento_de_Santa_Clara__Funchal_-_2014-10-21_-_DSC01922.jpg"
+  "h": 5152
  },
  {
   "file": "PIRMAVERA__Hospital_de_Santa_Marta__Lisboa_.jpg",
@@ -964,8 +928,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 2468,
-  "h": 2976,
-  "tile": "PIRMAVERA__Hospital_de_Santa_Marta__Lisboa_.jpg"
+  "h": 2976
  },
  {
   "file": "S._ANTONIO_POBRE__Hospital_de_Santa_Marta__Lisboa_.jpg",
@@ -979,8 +942,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 1722,
-  "h": 2096,
-  "tile": "S._ANTONIO_POBRE__Hospital_de_Santa_Marta__Lisboa_.jpg"
+  "h": 2096
  },
  {
   "file": "Alcazar_of_Seville_Coat_of_Arms.jpg",
@@ -1036,8 +998,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 2760,
-  "h": 887,
-  "tile": "Battle_Scene_attributed_to_Antonio_Pereira.jpg"
+  "h": 887
  },
  {
   "file": "17_century_tiles_in_Museu_Nacional_do_Azulejo_03.jpg",
@@ -1051,8 +1012,7 @@ const TILES = [
   "century": "17",
   "motif": "other",
   "w": 1628,
-  "h": 2170,
-  "tile": "17_century_tiles_in_Museu_Nacional_do_Azulejo_03.jpg"
+  "h": 2170
  },
  {
   "file": "17_century_tiles_in_Museu_Nacional_do_Azulejo_02.jpg",
@@ -1095,8 +1055,7 @@ const TILES = [
   "century": "17",
   "motif": "figurative",
   "w": 1624,
-  "h": 1796,
-  "tile": "Retrato_equestre_de_D._Fernando_Mascarenhas__c._1670__Palacio_dos_Marqueses_de_Fronteira_.jpg"
+  "h": 1796
  },
  {
   "file": "Triunfo_de_David.jpg",
@@ -1110,8 +1069,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 3872,
-  "h": 2592,
-  "tile": "Triunfo_de_David.jpg"
+  "h": 2592
  },
  {
   "file": "Esperanca__azulejos_de_oficina_de_Lisboa__1760__c__Funchal._-_Image_126070.jpg",
@@ -1125,8 +1083,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 1280,
-  "h": 854,
-  "tile": "Esperanca__azulejos_de_oficina_de_Lisboa__1760__c__Funchal._-_Image_126070.jpg"
+  "h": 854
  },
  {
   "file": "Pormenor_dos_azulejos_da_torre_da_igreja_do_convento_de_Santa_Clara_do_Funchal_-_2010-06-26_-_Image_113028.jpg",
@@ -1154,8 +1111,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 960,
-  "h": 1280,
-  "tile": "Caridade__aulejos_de_1760-1765__Museu_de_Arte_Sacra_do_Funchal_-_Image_105490.jpg"
+  "h": 1280
  },
  {
   "file": "o_room_with_a_fountain__azulejo_panels_and_statues__Antonio_Medeiros_e_Almeida_Museum__Lisbon__Portugal_julesvernex2.jpg",
@@ -1239,8 +1195,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 3024,
-  "h": 4032,
-  "tile": "Hospital_de_Santa_Marta_59.jpg"
+  "h": 4032
  },
  {
   "file": "Azulejos_del_refectorio_del_Monasterio_de_los_Jeronimos.jpg",
@@ -1254,8 +1209,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 1410,
-  "h": 1460,
-  "tile": "Azulejos_del_refectorio_del_Monasterio_de_los_Jeronimos.jpg"
+  "h": 1460
  },
  {
   "file": "Palacio_dos_Condes_de_Anadia_-_Silhar_com_vasos_e_golfinhos_-_CFT009.1257.jpg",
@@ -1269,8 +1223,7 @@ const TILES = [
   "century": "18",
   "motif": "floral",
   "w": 1958,
-  "h": 2686,
-  "tile": "Palacio_dos_Condes_de_Anadia_-_Silhar_com_vasos_e_golfinhos_-_CFT009.1257.jpg"
+  "h": 2686
  },
  {
   "file": "Palacio_dos_Condes_de_Anadia_-_Silhar_com_vasos_e_golfinhos_-_CFT009.1256.jpg",
@@ -1312,8 +1265,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 1969,
-  "h": 2705,
-  "tile": "Palacio_dos_Condes_de_Anadia_-_A_fugida_de_Cleopatra_-_CFT009.1259.jpg"
+  "h": 2705
  },
  {
   "file": "sa_dos_azulejos_da_Casa-Museu_Dr._Frederico_de_Freitas__Maria_Joao_Cardoso__1800__c.__e_1999__Funchal_-_Image_152375.jpg",
@@ -1327,8 +1279,7 @@ const TILES = [
   "century": "18",
   "motif": "other",
   "w": 1280,
-  "h": 1030,
-  "tile": "sa_dos_azulejos_da_Casa-Museu_Dr._Frederico_de_Freitas__Maria_Joao_Cardoso__1800__c.__e_1999__Funchal_-_Image_152375.jpg"
+  "h": 1030
  },
  {
   "file": "Santa_Clara__convento_de_Santa_Clara_do_Funchal_-_2015-11-04_-_Image_124772.jpg",
@@ -1342,8 +1293,7 @@ const TILES = [
   "century": "18",
   "motif": "narrative-panels",
   "w": 933,
-  "h": 1280,
-  "tile": "Santa_Clara__convento_de_Santa_Clara_do_Funchal_-_2015-11-04_-_Image_124772.jpg"
+  "h": 1280
  },
  {
   "file": "Azulejo_de_uma_fonte_de_meados_do_seculo_XIX.jpg",
@@ -1357,8 +1307,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 1600,
-  "h": 1200,
-  "tile": "Azulejo_de_uma_fonte_de_meados_do_seculo_XIX.jpg"
+  "h": 1200
  },
  {
   "file": "Azulejo_vinari.jpg",
@@ -1470,8 +1419,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8109.jpg"
+  "h": 3456
  },
  {
   "file": "Cervejaria_Trindade_8110.jpg",
@@ -1485,8 +1433,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8110.jpg"
+  "h": 3456
  },
  {
   "file": "Cervejaria_Trindade_8111.jpg",
@@ -1500,8 +1447,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8111.jpg"
+  "h": 3456
  },
  {
   "file": "Cervejaria_Trindade_8113.jpg",
@@ -1515,8 +1461,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8113.jpg"
+  "h": 3456
  },
  {
   "file": "Cervejaria_Trindade_8112.jpg",
@@ -1530,8 +1475,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8112.jpg"
+  "h": 3456
  },
  {
   "file": "Cervejaria_Trindade_8114.jpg",
@@ -1545,8 +1489,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8114.jpg"
+  "h": 3456
  },
  {
   "file": "Cervejaria_Trindade_8115.jpg",
@@ -1560,8 +1503,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2304,
-  "h": 3456,
-  "tile": "Cervejaria_Trindade_8115.jpg"
+  "h": 3456
  },
  {
   "file": "Leading_lines__5581912142_.jpg",
@@ -1589,8 +1531,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 4320,
-  "h": 3240,
-  "tile": "Azulejo_a_Amigo_Vallejo.jpg"
+  "h": 3240
  },
  {
   "file": "2015_Madeira_Samsung__27_.jpg",
@@ -1618,8 +1559,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 3264,
-  "h": 2448,
-  "tile": "Azulejo_in_a_chapel_Funchal.jpg"
+  "h": 2448
  },
  {
   "file": "Azulejo_in_a_chapel_Funchal2.jpg",
@@ -1633,8 +1573,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 3264,
-  "h": 2448,
-  "tile": "Azulejo_in_a_chapel_Funchal2.jpg"
+  "h": 2448
  },
  {
   "file": "Lisbon_131__31787632694_.jpg",
@@ -1662,8 +1601,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 4320,
-  "h": 3240,
-  "tile": "Azulejos_planta.jpg"
+  "h": 3240
  },
  {
   "file": "A_Ciencia_afugentando_a_Supersticao_-_Jorge_Colaco.jpg",
@@ -1691,8 +1629,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 4320,
-  "h": 3240,
-  "tile": "Azulejo_Capuchinos.jpg"
+  "h": 3240
  },
  {
   "file": "Cervejaria_Trindade__36239574991_.jpg",
@@ -1734,8 +1671,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2556,
-  "h": 1508,
-  "tile": "Ana_Ruiz_Hernandez.jpg"
+  "h": 1508
  },
  {
   "file": "Batalha_da_Rolica__Acervo_Museologico_do_Forte_de_Sao_Juliao_da_Barra_.jpg",
@@ -1763,8 +1699,7 @@ const TILES = [
   "century": "20-21",
   "motif": "narrative-panels",
   "w": 1478,
-  "h": 2124,
-  "tile": "Marianna_de_Lancastre_commanda_a_artilheria_na_ausencia_do_Conde__seu_marido_-_Pereira_Cao__Palacio_da_Rosa__Lisboa_.jpg"
+  "h": 2124
  },
  {
   "file": "Igreja_de_Sao_Roque__Funchal_-_2012-02-29_-_DSC04017.jpg",
@@ -1806,8 +1741,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 1673,
-  "h": 2128,
-  "tile": "Canals_-_Retaule_ceramic_de_la_Mare_de_Deu_dels_Dolors__Nauselva__-_03.jpg"
+  "h": 2128
  },
  {
   "file": "rianna_de_Lancastre_commanda_a_artilheria_na_ausencia_do_Conde__seu_marido_-_Patio_do_palacio_da_Rosa_-_Image_206426.jpg",
@@ -1821,8 +1755,7 @@ const TILES = [
   "century": "20-21",
   "motif": "narrative-panels",
   "w": 952,
-  "h": 1368,
-  "tile": "rianna_de_Lancastre_commanda_a_artilheria_na_ausencia_do_Conde__seu_marido_-_Patio_do_palacio_da_Rosa_-_Image_206426.jpg"
+  "h": 1368
  },
  {
   "file": "Azulejos_Sagrada_Familia.jpg",
@@ -1836,8 +1769,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2935,
-  "h": 2700,
-  "tile": "Azulejos_Sagrada_Familia.jpg"
+  "h": 2700
  },
  {
   "file": "Azulejos_Pajaros.jpg",
@@ -1851,8 +1783,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 2375,
-  "h": 3976,
-  "tile": "Azulejos_Pajaros.jpg"
+  "h": 3976
  },
  {
   "file": "Armazens_da_Estrada_de_Sao_Joao_-_2010-06-26_-_Image_111874.jpg",
@@ -1908,8 +1839,7 @@ const TILES = [
   "century": "19",
   "motif": "other",
   "w": 1280,
-  "h": 898,
-  "tile": "jos_turcos_da_Casa_dos_azulejos_da_Casa-Museu_Frederico_de_Freitas__Maria_Joao_Cardoso__1999__Funchal_-_Image_152385.jpg"
+  "h": 898
  },
  {
   "file": "do_Distrito_Autonomo_do_Funchal_a_Avenida_Arriaga__decorada_com_azulejos_padrao_Marvila_-_2018-06-02_-_Image_148420.jpg",
@@ -1921,7 +1851,7 @@ const TILES = [
   "date": "2018-06-02",
   "style": "modernist",
   "century": "20-21",
-  "motif": "geometric",
+  "motif": "other",
   "w": 1158,
   "h": 1280
  },
@@ -1935,7 +1865,7 @@ const TILES = [
   "date": "2018-06-02",
   "style": "modernist",
   "century": "20-21",
-  "motif": "geometric",
+  "motif": "other",
   "w": 869,
   "h": 1280
  },
@@ -1949,7 +1879,7 @@ const TILES = [
   "date": "2018-06-02",
   "style": "modernist",
   "century": "20-21",
-  "motif": "geometric",
+  "motif": "other",
   "w": 878,
   "h": 1280
  },
@@ -1963,7 +1893,7 @@ const TILES = [
   "date": "2018-06-02",
   "style": "modernist",
   "century": "20-21",
-  "motif": "geometric",
+  "motif": "other",
   "w": 832,
   "h": 1280
  },
@@ -1979,8 +1909,7 @@ const TILES = [
   "century": "20-21",
   "motif": "narrative-panels",
   "w": 885,
-  "h": 1280,
-  "tile": "Imaculada_Conceicao__convento_de_Santa_Clara_do_Funchal_-_2013-01-16_-_Image_104618.jpg"
+  "h": 1280
  },
  {
   "file": "Imaculada_Conceicao__convento_de_Santa_Clara_do_Funchal_-_2013-01-16_-_Image_104620.jpg",
@@ -1994,8 +1923,7 @@ const TILES = [
   "century": "20-21",
   "motif": "narrative-panels",
   "w": 858,
-  "h": 1280,
-  "tile": "Imaculada_Conceicao__convento_de_Santa_Clara_do_Funchal_-_2013-01-16_-_Image_104620.jpg"
+  "h": 1280
  },
  {
   "file": "Azulejo_3.jpg",
@@ -2009,8 +1937,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 1423,
-  "h": 1020,
-  "tile": "Azulejo_3.jpg"
+  "h": 1020
  },
  {
   "file": "Azulejo_Loaysa_panel_ni.jpg",
@@ -2038,8 +1965,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2592,
-  "h": 3844,
-  "tile": "Aveiro_March_2012-4a.jpg"
+  "h": 3844
  },
  {
   "file": "Azulejo_December_2012-2.jpg",
@@ -2053,8 +1979,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2253,
-  "h": 2761,
-  "tile": "Azulejo_December_2012-2.jpg"
+  "h": 2761
  },
  {
   "file": "001117_15-44-2002-To-grupper-rosa-Qajar-Fliser2.jpg",
@@ -2066,7 +1991,7 @@ const TILES = [
   "date": "First half of 19th",
   "style": "pombaline",
   "century": "unknown",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 2733,
   "h": 3462,
   "tile": "001117_15-44-2002-To-grupper-rosa-Qajar-Fliser2.jpg"
@@ -2081,7 +2006,7 @@ const TILES = [
   "date": "17th or 18th",
   "style": "pombaline",
   "century": "unknown",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 3489,
   "h": 1911,
   "tile": "17.6-24-1974-Cuerda-seca-flisepanel.jpg"
@@ -2124,7 +2049,7 @@ const TILES = [
   "date": "2013-09-12 14:36:27",
   "style": "pombaline",
   "century": "unknown",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 1600,
   "h": 1200
  },
@@ -2155,8 +2080,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 4608,
-  "h": 2592,
-  "tile": "AdegaColares.jpg"
+  "h": 2592
  },
  {
   "file": "1630_Friesische_Kacheln_mit_Trauben_NordseeMuseum_Husum_anagoria.jpg",
@@ -2168,7 +2092,7 @@ const TILES = [
   "date": "2015-09-11",
   "style": "pombaline",
   "century": "17",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 3300,
   "h": 3300,
   "tile": "1630_Friesische_Kacheln_mit_Trauben_NordseeMuseum_Husum_anagoria.jpg"
@@ -2183,7 +2107,7 @@ const TILES = [
   "date": "2015-09-11",
   "style": "pombaline",
   "century": "17",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 3300,
   "h": 3300,
   "tile": "1630_Friesische_Kacheln_mit_Granatapfeln_NordseeMuseum_Husum_anagoria.jpg"
@@ -2198,10 +2122,9 @@ const TILES = [
   "date": "2015-09-11",
   "style": "pombaline",
   "century": "18",
-  "motif": "geometric",
+  "motif": "figurative",
   "w": 3300,
-  "h": 3300,
-  "tile": "1755_Friesische_Kacheln_mit_Fruchtkorb_NordseeMuseum_Husum_anagoria.jpg"
+  "h": 3300
  },
  {
   "file": "-Porto__24601390960_.jpg",
@@ -2256,7 +2179,7 @@ const TILES = [
   "date": "2016-07-23 16:24:19",
   "style": "pombaline",
   "century": "unknown",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 6000,
   "h": 4000,
   "tile": "Azulejos_da_fachada.jpg"
@@ -2273,8 +2196,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 3336,
-  "h": 1397,
-  "tile": "Alcala_de_Henares__RPS_8-11-2014__azulejo_en_Avenida_de_Guadalajara_16.jpg"
+  "h": 1397
  },
  {
   "file": "Azulejo_costalero_fallecido.jpg",
@@ -2302,8 +2224,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 3152,
-  "h": 2125,
-  "tile": "Azulejo_Arcas_Lucena.jpg"
+  "h": 2125
  },
  {
   "file": "Azulejo_Coronacion_NS_de_la_O.jpg",
@@ -2317,8 +2238,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 4320,
-  "h": 3240,
-  "tile": "Azulejo_Coronacion_NS_de_la_O.jpg"
+  "h": 3240
  },
  {
   "file": "Azulejo_ceramistas.jpg",
@@ -2332,8 +2252,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2484,
-  "h": 1674,
-  "tile": "Azulejo_ceramistas.jpg"
+  "h": 1674
  },
  {
   "file": "Azulejo_de_Francisco_de_Arino.jpg",
@@ -2375,8 +2294,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2659,
-  "h": 2169,
-  "tile": "Azulejo_a_Jose_el_Carretero_.jpg"
+  "h": 2169
  },
  {
   "file": "Azulejo_a_la_Embajada_de_Keicho.jpg",
@@ -2390,8 +2308,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 3886,
-  "h": 2892,
-  "tile": "Azulejo_a_la_Embajada_de_Keicho.jpg"
+  "h": 2892
  },
  {
   "file": "Azulejo_de_la_Virgen_de_la_Estrella_01.jpg",
@@ -2405,8 +2322,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 3240,
-  "h": 4320,
-  "tile": "Azulejo_de_la_Virgen_de_la_Estrella_01.jpg"
+  "h": 4320
  },
  {
   "file": "Azulejo_a_los_costaleros.jpg",
@@ -2420,8 +2336,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2260,
-  "h": 1398,
-  "tile": "Azulejo_a_los_costaleros.jpg"
+  "h": 1398
  },
  {
   "file": "Azulejo_de_Jesus_Cautivo.jpg",
@@ -2435,8 +2350,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2432,
-  "h": 2778,
-  "tile": "Azulejo_de_Jesus_Cautivo.jpg"
+  "h": 2778
  },
  {
   "file": "At_Paraty__Brazil_2018_031.jpg",
@@ -2506,8 +2420,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 3240,
-  "h": 1960,
-  "tile": "Azulejo_de_Antonita_Moreno.jpg"
+  "h": 1960
  },
  {
   "file": "Azulejo_a_Vicente_de_Campos.jpg",
@@ -2521,8 +2434,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 2029,
-  "h": 1055,
-  "tile": "Azulejo_a_Vicente_de_Campos.jpg"
+  "h": 1055
  },
  {
   "file": "Azulejo_de_Los_Molares.jpg",
@@ -2550,8 +2462,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2244,
-  "h": 1683,
-  "tile": "Azulejo_Cuatrovitas.jpg"
+  "h": 1683
  },
  {
   "file": "Interior_of_Casa_do_Infante_16.jpg",
@@ -2579,8 +2490,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 4608,
-  "h": 3456,
-  "tile": "20210703_113745_Igreja_da_Sagrada_Familia__Caselas_.jpg"
+  "h": 3456
  },
  {
   "file": "20210703_113732_Igreja_da_Sagrada_Familia__Caselas_.jpg",
@@ -2594,8 +2504,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 4608,
-  "h": 3456,
-  "tile": "20210703_113732_Igreja_da_Sagrada_Familia__Caselas_.jpg"
+  "h": 3456
  },
  {
   "file": "Azulejo_Lisboa.jpg",
@@ -2609,8 +2518,7 @@ const TILES = [
   "century": "unknown",
   "motif": "geometric",
   "w": 1836,
-  "h": 3264,
-  "tile": "Azulejo_Lisboa.jpg"
+  "h": 3264
  },
  {
   "file": "Azulejo_a_fusilados_en_1936.jpg",
@@ -2624,8 +2532,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 4096,
-  "h": 3072,
-  "tile": "Azulejo_a_fusilados_en_1936.jpg"
+  "h": 3072
  },
  {
   "file": "Avenida_Almirante_Reis_33.jpg",
@@ -2653,8 +2560,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 2048,
-  "h": 1536,
-  "tile": "Palacio_Sintra_azulejo1.jpg"
+  "h": 1536
  },
  {
   "file": "Palacio_Sintra_azulejo2.jpg",
@@ -2680,10 +2586,9 @@ const TILES = [
   "date": "",
   "style": "pombaline",
   "century": "unknown",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 3825,
-  "h": 2549,
-  "tile": "Casa_de_Azulejos_na_Rua_Duque_de_Caxias_.jpg"
+  "h": 2549
  },
  {
   "file": "Casa_de_Azulejos_na_Rua_Sete_de_Setembro6.jpg",
@@ -2697,8 +2602,7 @@ const TILES = [
   "century": "unknown",
   "motif": "geometric",
   "w": 3888,
-  "h": 2578,
-  "tile": "Casa_de_Azulejos_na_Rua_Sete_de_Setembro6.jpg"
+  "h": 2578
  },
  {
   "file": "Caminhosoifuturo.jpg",
@@ -2727,8 +2631,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 3000,
-  "h": 4000,
-  "tile": "Bedchamber_of_King_Sebastian_in_the_Palacio_Nacional_de_Sintra_P1000197.jpg"
+  "h": 4000
  },
  {
   "file": "Palacio_Nacional_de_Sintra__8__-_Mar_2010.jpg",
@@ -2756,8 +2659,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 1871,
-  "h": 2801,
-  "tile": "Azulejo_Palacio_Nacional_de_Sintra.jpg"
+  "h": 2801
  },
  {
   "file": "Pasteis_de_Belem__3779648563_.jpg",
@@ -2799,8 +2701,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 1376,
-  "h": 928,
-  "tile": "Palacio_Nacional_de_Sintra__Portugal__2670356847_.jpg"
+  "h": 928
  },
  {
   "file": "Casa_em_Santa_Cruz_do_Sul_001.jpg",
@@ -2814,8 +2715,7 @@ const TILES = [
   "century": "unknown",
   "motif": "geometric",
   "w": 1920,
-  "h": 1080,
-  "tile": "Casa_em_Santa_Cruz_do_Sul_001.jpg"
+  "h": 1080
  },
  {
   "file": "18.4.14_1_Guimaraes_17__13911121016_.jpg",
@@ -2829,8 +2729,7 @@ const TILES = [
   "century": "unknown",
   "motif": "floral",
   "w": 3056,
-  "h": 3912,
-  "tile": "18.4.14_1_Guimaraes_17__13911121016_.jpg"
+  "h": 3912
  },
  {
   "file": "Palacio_Sintra_February_2015-30a.jpg",
@@ -2858,8 +2757,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 6000,
-  "h": 4000,
-  "tile": "Palacio_Nacional_de_Sintra_DSC_0316__17089624287_.jpg"
+  "h": 4000
  },
  {
   "file": "CasaAzulejada4.jpg",
@@ -2871,7 +2769,7 @@ const TILES = [
   "date": "2015-10-23 11:43:25",
   "style": "pombaline",
   "century": "unknown",
-  "motif": "geometric",
+  "motif": "floral",
   "w": 4896,
   "h": 3672,
   "tile": "CasaAzulejada4.jpg"
@@ -2888,8 +2786,7 @@ const TILES = [
   "century": "unknown",
   "motif": "figura-de-convite",
   "w": 3456,
-  "h": 2592,
-  "tile": "Tropusi_kert_azulejo2.jpg"
+  "h": 2592
  },
  {
   "file": "Alianca_Underground_Museum-Azulejos__10_.jpg",
@@ -2903,8 +2800,7 @@ const TILES = [
   "century": "unknown",
   "motif": "figura-de-convite",
   "w": 3648,
-  "h": 5472,
-  "tile": "Alianca_Underground_Museum-Azulejos__10_.jpg"
+  "h": 5472
  },
  {
   "file": "Palacio_Nacional_de_Sintra_DSC04969_-_SINTRA__32494051854_.jpg",
@@ -2932,8 +2828,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 1333,
-  "h": 2000,
-  "tile": "Palacio_Nacional_de_Sintra_DSC05010_-_SINTRA__33235832802_.jpg"
+  "h": 2000
  },
  {
   "file": "Portugal_20170509_114528__34419667780_.jpg",
@@ -2947,8 +2842,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 3096,
-  "h": 4128,
-  "tile": "Portugal_20170509_114528__34419667780_.jpg"
+  "h": 4128
  },
  {
   "file": "Portugal_20170509_114526__33996166553_.jpg",
@@ -2962,8 +2856,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 3096,
-  "h": 4128,
-  "tile": "Portugal_20170509_114526__33996166553_.jpg"
+  "h": 4128
  },
  {
   "file": "Portugal_20170511_101834__34598587032_.jpg",
@@ -2977,8 +2870,7 @@ const TILES = [
   "century": "unknown",
   "motif": "figura-de-convite",
   "w": 3096,
-  "h": 4128,
-  "tile": "Portugal_20170511_101834__34598587032_.jpg"
+  "h": 4128
  },
  {
   "file": "Palacio_Nacional_de_Sintra_20170509_112647__34697601361_.jpg",
@@ -2992,8 +2884,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 4128,
-  "h": 3096,
-  "tile": "Palacio_Nacional_de_Sintra_20170509_112647__34697601361_.jpg"
+  "h": 3096
  },
  {
   "file": "Palacio_Nacional_de_Sintra_20170509_112325__34829711575_.jpg",
@@ -3007,8 +2898,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 3096,
-  "h": 4128,
-  "tile": "Palacio_Nacional_de_Sintra_20170509_112325__34829711575_.jpg"
+  "h": 4128
  },
  {
   "file": "Palacio_Nacional_de_Sintra_20170509_112322__34829712585_.jpg",
@@ -3022,8 +2912,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 3096,
-  "h": 4128,
-  "tile": "Palacio_Nacional_de_Sintra_20170509_112322__34829712585_.jpg"
+  "h": 4128
  },
  {
   "file": "Azulejoscartabon.jpg",
@@ -3052,8 +2941,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 2757,
-  "h": 3377,
-  "tile": "Sintra__33974245508_.jpg"
+  "h": 3377
  },
  {
   "file": "Sintra__33974137988_.jpg",
@@ -3067,8 +2955,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 1903,
-  "h": 2646,
-  "tile": "Sintra__33974137988_.jpg"
+  "h": 2646
  },
  {
   "file": "Sintra__46935280305_.jpg",
@@ -3082,8 +2969,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 2633,
-  "h": 2602,
-  "tile": "Sintra__46935280305_.jpg"
+  "h": 2602
  },
  {
   "file": "Azulejos_a_Sintra.jpg",
@@ -3111,8 +2997,7 @@ const TILES = [
   "century": "20-21",
   "motif": "floral",
   "w": 1295,
-  "h": 1826,
-  "tile": "Albarrada__2001__-_Bela_Silva__1966___15985646373_.jpg"
+  "h": 1826
  },
  {
   "file": "Portugal__Sintra__National_Palace__Tiles__Throne_Room__52594388668_.jpg",
@@ -3126,8 +3011,7 @@ const TILES = [
   "century": "unknown",
   "motif": "relief",
   "w": 3878,
-  "h": 2754,
-  "tile": "Portugal__Sintra__National_Palace__Tiles__Throne_Room__52594388668_.jpg"
+  "h": 2754
  },
  {
   "file": "is__chafarizes__igreja__monumental_portao_de_entrada_e_toda_a_area_murada_da_antiga_quinta_-_2025-10-14_17-53-10_005.jpg",
@@ -3155,8 +3039,7 @@ const TILES = [
   "century": "20-21",
   "motif": "figura-de-convite",
   "w": 3920,
-  "h": 2932,
-  "tile": "is__chafarizes__igreja__monumental_portao_de_entrada_e_toda_a_area_murada_da_antiga_quinta_-_2025-10-14_17-53-10_008.jpg"
+  "h": 2932
  },
  {
   "file": "MNAz_81.jpg",
@@ -3184,8 +3067,7 @@ const TILES = [
   "century": "unknown",
   "motif": "figura-de-convite",
   "w": 3024,
-  "h": 4032,
-  "tile": "MNAz_82.jpg"
+  "h": 4032
  },
  {
   "file": "MNAz_83.jpg",
@@ -3227,8 +3109,7 @@ const TILES = [
   "century": "unknown",
   "motif": "figura-de-convite",
   "w": 3024,
-  "h": 4032,
-  "tile": "MNAz_85.jpg"
+  "h": 4032
  },
  {
   "file": "MNAz_86.jpg",
@@ -3242,8 +3123,7 @@ const TILES = [
   "century": "unknown",
   "motif": "figura-de-convite",
   "w": 4032,
-  "h": 3024,
-  "tile": "MNAz_86.jpg"
+  "h": 3024
  },
  {
   "file": "Albarradas_in_Braga_1.jpg",
@@ -3257,8 +3137,7 @@ const TILES = [
   "century": "unknown",
   "motif": "floral",
   "w": 1967,
-  "h": 1568,
-  "tile": "Albarradas_in_Braga_1.jpg"
+  "h": 1568
  },
  {
   "file": "Albarradas_in_Braga_2.jpg",
@@ -3272,8 +3151,7 @@ const TILES = [
   "century": "unknown",
   "motif": "floral",
   "w": 1877,
-  "h": 1754,
-  "tile": "Albarradas_in_Braga_2.jpg"
+  "h": 1754
  },
  {
   "file": "Elvas_Station__Alentejo__Portugal__29_September_2005.jpg",
@@ -3343,8 +3221,7 @@ const TILES = [
   "century": "unknown",
   "motif": "floral",
   "w": 3456,
-  "h": 2304,
-  "tile": "Capela_de_Santo_Amaro_7660.jpg"
+  "h": 2304
  },
  {
   "file": "Antigua_estacion_de_Moncao__4781398203_.jpg",
@@ -3372,8 +3249,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 3223,
-  "h": 4203,
-  "tile": "Azulejos__7759429788_.jpg"
+  "h": 4203
  },
  {
   "file": "Bordalo_pinheiro_modelando.jpg",
@@ -3387,8 +3263,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 2878,
-  "h": 4318,
-  "tile": "Bordalo_pinheiro_modelando.jpg"
+  "h": 4318
  },
  {
   "file": "Estacao_comboios_Aveiro__33629703294_.jpg",
@@ -3402,8 +3277,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 4608,
-  "h": 3456,
-  "tile": "Estacao_comboios_Aveiro__33629703294_.jpg"
+  "h": 3456
  },
  {
   "file": "Azulejos_em_Alfama__120FAITH_3782___37673986552_.jpg",
@@ -3431,8 +3305,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 2011,
-  "h": 1479,
-  "tile": "Estacao_Ferroviaria_da_Azambuja_-_Portugal__16636083727_.jpg"
+  "h": 1479
  },
  {
   "file": "Estacao_Ferroviaria_da_Azambuja_-_Portugal__17050929309_.jpg",
@@ -3446,8 +3319,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 1951,
-  "h": 1475,
-  "tile": "Estacao_Ferroviaria_da_Azambuja_-_Portugal__17050929309_.jpg"
+  "h": 1475
  },
  {
   "file": "Apeadeiro_Ferroviario_de_Abrunhosa-a-Velha_-_Portugal__2404242530_.jpg",
@@ -3461,8 +3333,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 1280,
-  "h": 932,
-  "tile": "Apeadeiro_Ferroviario_de_Abrunhosa-a-Velha_-_Portugal__2404242530_.jpg"
+  "h": 932
  },
  {
   "file": "Apeadeiro_Ferroviario_de_Abrunhosa-a-Velha_-_Portugal__12125169465_.jpg",
@@ -3490,8 +3361,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 1280,
-  "h": 846,
-  "tile": "Estacao_Ferroviaria_de_Canas_Felgueira_-_Canas_de_Senhorim_-_Portugal__2209187492_.jpg"
+  "h": 846
  },
  {
   "file": "Estacao_Ferroviaria_de_Nelas_-_Portugal__2635222009_.jpg",
@@ -3519,8 +3389,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 3740,
-  "h": 3824,
-  "tile": "Estacao_Ferroviaria_de_Canas-Felgueira_-_Portugal__3341741867_.jpg"
+  "h": 3824
  },
  {
   "file": "Estacao_Ferroviaria_de_Canas-Felgueira_-_Canas_de_Senhorim_-_Portugal__3617481788_.jpg",
@@ -3534,8 +3403,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 5115,
-  "h": 3568,
-  "tile": "Estacao_Ferroviaria_de_Canas-Felgueira_-_Canas_de_Senhorim_-_Portugal__3617481788_.jpg"
+  "h": 3568
  },
  {
   "file": "Estacao_Ferroviaria_de_Nelas_-_Portugal__4672477703_.jpg",
@@ -3549,8 +3417,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 5115,
-  "h": 3646,
-  "tile": "Estacao_Ferroviaria_de_Nelas_-_Portugal__4672477703_.jpg"
+  "h": 3646
  },
  {
   "file": "Estacao_Ferroviaria_de_Nelas_-_Portugal__7170518687_.jpg",
@@ -3564,8 +3431,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 3797,
-  "h": 4588,
-  "tile": "Estacao_Ferroviaria_de_Nelas_-_Portugal__7170518687_.jpg"
+  "h": 4588
  },
  {
   "file": "190924_Porto_-_95__49008889082_.jpg",
@@ -3579,8 +3445,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 1673,
-  "h": 1195,
-  "tile": "190924_Porto_-_95__49008889082_.jpg"
+  "h": 1195
  },
  {
   "file": "A_ceramic_piece_of_Sylvain_Bongard__16041586343_.jpg",
@@ -3608,8 +3473,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 4892,
-  "h": 2667,
-  "tile": "2011__-_Manuel_Cargaleiro__1927___18270720101_.jpg"
+  "h": 2667
  },
  {
   "file": "Art_Window__2009__-_Rafael_Bordalo_Pinheiro__1846-1905___49443044578_.jpg",
@@ -3637,8 +3501,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 2840,
-  "h": 3787,
-  "tile": "Elvas__49499189007_.jpg"
+  "h": 3787
  },
  {
   "file": "Azulejos_at_Av._Alm._Reis_-_Lisboa__51260915174_.jpg",
@@ -3708,8 +3571,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 4624,
-  "h": 3468,
-  "tile": "Azulejo_na_Estacao_Ferroviaria_de_Santarem_sobre_Ponte_de_Santarem.jpg"
+  "h": 3468
  },
  {
   "file": "Azulejo_na_Estacao_Ferroviaria_de_Santarem_sobre_Claustro_do_Convento_de_Sao_Francisco_em_Santarem.jpg",
@@ -3737,8 +3599,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 1468,
-  "h": 1517,
-  "tile": "Azulejos_Caminho_de_Ferro_Lisboa_Portugal.jpg"
+  "h": 1517
  },
  {
   "file": "Azelejos_na_Rua_Saraiva_de_Conceicao__105.jpg",
@@ -3822,8 +3683,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 4032,
-  "h": 3024,
-  "tile": "Estacao_Paco_de_Arcos_01.jpg"
+  "h": 3024
  },
  {
   "file": "Estacao_Paco_de_Arcos_02.jpg",
@@ -3837,8 +3697,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 3891,
-  "h": 2918,
-  "tile": "Estacao_Paco_de_Arcos_02.jpg"
+  "h": 2918
  },
  {
   "file": "Estacao_Paco_de_Arcos_03.jpg",
@@ -3895,8 +3754,7 @@ const TILES = [
   "century": "unknown",
   "motif": "floral",
   "w": 4474,
-  "h": 1144,
-  "tile": "Albarradas_in_Braga_4.jpg"
+  "h": 1144
  },
  {
   "file": "Albarradas_Porto_1.jpg",
@@ -3924,8 +3782,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 6958,
-  "h": 4583,
-  "tile": "31139_Tile__55068914374_.jpg"
+  "h": 4583
  },
  {
   "file": "31148_A_bucolic_scene__55070252856_.jpg",
@@ -3954,8 +3811,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 7654,
-  "h": 5165,
-  "tile": "31144_Tiles__55070612095_.jpg"
+  "h": 5165
  },
  {
   "file": "Amadora_Este.jpg",
@@ -4137,8 +3993,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 1600,
-  "h": 1200,
-  "tile": "AlvaladeMetroLx2.jpg"
+  "h": 1200
  },
  {
   "file": "AlvaladeMetroLx3.jpg",
@@ -4180,8 +4035,7 @@ const TILES = [
   "century": "20-21",
   "motif": "narrative-panels",
   "w": 2592,
-  "h": 1944,
-  "tile": "Azulejo_panel_in_Lisbon_-_Jul_2008.jpg"
+  "h": 1944
  },
  {
   "file": "17.4.14_1_Lisbon_344__13909355672_.jpg",
@@ -4209,8 +4063,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 6016,
-  "h": 4000,
-  "tile": "17.4.14_1_Lisbon_343__13909349166_.jpg"
+  "h": 4000
  },
  {
   "file": "Fontanario_em_frente_a_Igreja_de_Santa_Eulalia.jpg",
@@ -4294,8 +4147,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 1920,
-  "h": 1918,
-  "tile": "Azulejo_Metro_Cidade_Universitaria.jpg"
+  "h": 1918
  },
  {
   "file": "A_ceramic_piece_of_Sylvain_Bongard__16483826369_.jpg",
@@ -4407,8 +4259,7 @@ const TILES = [
   "century": "20-21",
   "motif": "other",
   "w": 2304,
-  "h": 1728,
-  "tile": "Alvalade__2201620213_.jpg"
+  "h": 1728
  },
  {
   "file": "Buildings_in_Porto_19.jpg",
@@ -4464,8 +4315,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 3648,
-  "h": 5472,
-  "tile": "Arca_d_agua_de_Santo_Isidro__3_.jpg"
+  "h": 5472
  },
  {
   "file": "Arca_d_agua_de_Santo_Isidro__2_.jpg",
@@ -4479,8 +4329,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 3648,
-  "h": 5472,
-  "tile": "Arca_d_agua_de_Santo_Isidro__2_.jpg"
+  "h": 5472
  },
  {
   "file": "Arca_d_agua_de_Santo_Isidro__1_.jpg",
@@ -4536,8 +4385,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 2420,
-  "h": 5472,
-  "tile": "Bazar_dos_tres_Vintens.jpg"
+  "h": 5472
  },
  {
   "file": "Avenida_General_Estevao_de_Morais_Sarmento_01.jpg",
@@ -4579,8 +4427,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 4032,
-  "h": 3024,
-  "tile": "Avenida_General_Estevao_de_Morais_Sarmento_07.jpg"
+  "h": 3024
  },
  {
   "file": "Convento_dos_Grilos_27.jpg",
@@ -4594,8 +4441,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 5472,
-  "h": 3648,
-  "tile": "Convento_dos_Grilos_27.jpg"
+  "h": 3648
  },
  {
   "file": "Equidade_na_Igualdade.jpg",
@@ -4624,8 +4470,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 1692,
-  "h": 1502,
-  "tile": "Azulejo-Museum1.jpg"
+  "h": 1502
  },
  {
   "file": "Artisans_at_the_national_tile_museum__22342462766_.jpg",
@@ -4667,8 +4512,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 4608,
-  "h": 3456,
-  "tile": "Lisboa_em1018_2073054__25328245607_.jpg"
+  "h": 3456
  },
  {
   "file": "Lisboa_em1018_2073060__40199787891_.jpg",
@@ -4724,8 +4568,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 4608,
-  "h": 3456,
-  "tile": "Lisboa_em1018_2073085__39488409874_.jpg"
+  "h": 3456
  },
  {
   "file": "Lisboa_em1018_2073117__26327481818_.jpg",
@@ -4921,8 +4764,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 2944,
-  "h": 3925,
-  "tile": "Historial_do_Retabulo_de_Nossa_Senhora_da_Vida.jpg"
+  "h": 3925
  },
  {
   "file": "Painel_de_Azulejos_Arte_Nova__de_Carlos_Afonso_Soares_03.jpg",
@@ -4978,8 +4820,7 @@ const TILES = [
   "century": "unknown",
   "motif": "narrative-panels",
   "w": 4032,
-  "h": 3024,
-  "tile": "Painel_de_Azulejos_Arte_Nova__de_Carlos_Afonso_Soares_05.jpg"
+  "h": 3024
  },
  {
   "file": "Painel_de_Azulejos_Arte_Nova__de_Carlos_Afonso_Soares_04.jpg",
@@ -5035,8 +4876,7 @@ const TILES = [
   "century": "unknown",
   "motif": "other",
   "w": 3007,
-  "h": 3995,
-  "tile": "Colourful_tiles_displayed_in_Museu_Nacional_do_Azulejo__National_Tile_Museum__in_Lisbon__Portugal__55181682285_.jpg"
+  "h": 3995
  },
  {
   "file": "Coloured_tiles_on_walls_inside_Museu_Nacional_do_Azulejo__National_Tile_Museum__in_Lisbon__Portugal__55181538304_.jpg",
